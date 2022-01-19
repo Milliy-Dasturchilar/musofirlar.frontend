@@ -1,0 +1,107 @@
+.header-bottom {
+  background-image: url(./header-bg-img.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom-container {
+  position: relative;
+}
+
+/* header-card */
+
+.header-bottom-item {
+  max-width: 520px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin: auto;
+}
+.header-bottom-item > div {
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid #000;
+  margin: 0;
+}
+.tex1 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 100px;
+  margin: 0;
+  margin-right: 15px;
+}
+.text2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 33px;
+  margin: 0;
+  text-align: left;
+}
+.text3 {
+  max-width: 450px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin: auto;
+  margin-top: 20px;
+}
+.text3 > span {
+  font-weight: bold;
+}
+/* button */
+.main-btn {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 25px;
+  color: #ffffff;
+  padding: 15px 60px;
+  background-color: #007fff;
+  border-radius: 33px;
+  margin-top: 65px;
+}
+.main-btn:hover {
+  opacity: 0.8;
+}
+.main-btn:active {
+  opacity: 0.6;
+}
+
+/* global time */
+
+.global-time {
+  position: absolute;
+  top: -80px;
+  right: 35px;
+  text-align: center;
+  max-width: 150px;
+  width: 100%;
+}
+
+.time {
+  font-size: 80px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 30px;
+}
+
+.place {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+}
