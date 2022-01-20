@@ -1,5 +1,5 @@
 import React from 'react';
-import HeadHeader from '../headerTemplate/HeaderTemplate';
+import HeadHeader from '../../components/headerTemplate/HeaderTemplate';
 
 
 class Home extends React.Component {
