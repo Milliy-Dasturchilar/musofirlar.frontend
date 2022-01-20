@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/home/Home'
-import Flat from "./components/flat/Flat";
 
 
 class App extends React.PureComponent {

@@ -4,28 +4,26 @@ import './HeaderTemplate.css';
 class Home extends React.PureComponent {
   render() {
     return (
-      <section class="header-bottom">
-        <div class="container header-bottom-container">
-          <div class="header-bottom-item">
+      <section className="header-bottom">
+        <div className="container header-bottom-container">
+          <div className="header-bottom-item">
             <div>
-              <span class="tex1">DOIM</span>
-              <span class="text2">
+              <span className="tex1">DOIM</span>
+              <span className="text2">
                 biz bilan bo'ling! <br />
                 o'zbeklar bilan bo'ling!
               </span>
             </div>
-            <p class="text3">
+            <p className="text3">
               <span>MUSOFIRLAR.UZ</span> yordamida dunyoning <br />
               istalgan joyida najot topasiz!
             </p>
-            <a class="main-btn" href="#">
-              Boshlash
-            </a>
+            <a className="main-btn text-decoration-none" href="#">Boshlash</a>
           </div>
-          <div class="global-time">
-            <span class="time">09:45 </span>
+          <div className="global-time">
+            <span className="time">09:45 </span>
             <br />
-            <span class="place">Tashkent</span>
+            <span className="place">Tashkent</span>
           </div>
         </div>
       </section>

@@ -17,7 +17,6 @@
 .header-bottom-item {
   max-width: 520px;
   width: 100%;
-  margin: 0;
   text-align: center;
   margin: auto;
 }
@@ -28,16 +27,15 @@
   margin: 0;
 }
 .tex1 {
-  font-family: "Gilroy";
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 80px;
   line-height: 100px;
-  margin: 0;
-  margin-right: 15px;
+  margin: 0 15px 0 0;
 }
 .text2 {
-  font-family: "Gilroy";
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -47,20 +45,19 @@
 }
 .text3 {
   max-width: 450px;
-  font-family: "Gilroy";
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  margin: auto;
-  margin-top: 20px;
+  margin: 20px auto auto;
 }
 .text3 > span {
   font-weight: bold;
 }
 /* button */
 .main-btn {
-  font-family: "Gilroy";
+  font-family: "Ubuntu", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -90,8 +87,7 @@
 }
 
 .time {
-  font-size: 80px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 45px;
@@ -99,7 +95,7 @@
 }
 
 .place {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
