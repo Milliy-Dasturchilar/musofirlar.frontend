@@ -1,0 +1,118 @@
+.main-card {
+  background-image: url(./main-card-bg-image.png);
+  height: 500px;
+  width: inherit;
+  border-radius: 35px;
+  
+}
+.main-ijara-card {
+  width: 370px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.ijara-user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-user {
+  font-size: 50px;
+}
+.ijara-user-item {
+  margin: 0;
+}
+.ijara-user-item1 {
+  font-family: "Gilroy" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 21px;
+}
+.ijara-user-item2 {
+  font-family: "Gilroy" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 21px;
+  color: #a6a6a6;
+}
+
+.room-quality {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.room-quality > span {
+  font-family: "Gilroy" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+.fa-heart {
+  font-size: 20px;
+  color: #ffb800;
+}
+.room-cost {
+  font-family: "Gilroy", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 0;
+  margin-top: 10px;
+}
+.room-cost1 {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.room-cost2 {
+  text-decoration: line-through;
+}
+
+.room-equipment {
+  display: flex;
+  align-items: center;
+  color: #a5a5a5;
+  margin: 0;
+}
+.room-equipment > span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+}
+.room-equipment > div {
+  width: 110px;
+  margin-top: 15px;
+  
+}
+.room-equipment > div:not(:last-child) {
+  margin-right: 100px;
+}
+.room-equipment .fas {
+  margin-right: 5px;
+}
+.ijara-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+.ijara-btns > a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 11px 27px;
+  background-color: #007fff;
+  border-radius: 22px;
+  border: 2px solid #007fff;
+}
+.ijara-btns > a:hover {
+  background-color: #fff;
+  color: #007fff;
+}
