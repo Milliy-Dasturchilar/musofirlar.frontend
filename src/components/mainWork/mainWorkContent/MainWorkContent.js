@@ -8,11 +8,11 @@ class MainWorkContent extends React.Component {
   state = {};
   render() {
     return (
-      <div class="ish-bottom-left">
+      <div className="work-bottom-left">
         <a href="#" className="text-decoration-none">
-          <div class="ish-bottom-card">
+          <div className="work-bottom-card">
             <div>
-              <i class="fas fa-users"></i>
+              <i className="fas fa-users"></i>
               <span>Bag'ri keng jamoa</span>
             </div>
             <p>
@@ -22,9 +22,9 @@ class MainWorkContent extends React.Component {
           </div>
         </a>
         <a href="#" className="text-decoration-none">
-          <div class="ish-bottom-card">
+          <div className="work-bottom-card">
             <div>
-              <i class="fas fa-dollar-sign"></i>
+              <i className="fas fa-dollar-sign"></i>
               <span>Yuqori maosh va yingil mehnat</span>
             </div>
             <p>
@@ -35,9 +35,9 @@ class MainWorkContent extends React.Component {
         </a>
 
         <a href="#" className="text-decoration-none">
-          <div class="ish-bottom-card">
+          <div className="work-bottom-card">
             <div>
-              <i class="fas fa-mug-hot"></i>
+              <i className="fas fa-mug-hot"></i>
               <span>Coffeebreak ham mavjud</span>
             </div>
             <p>
