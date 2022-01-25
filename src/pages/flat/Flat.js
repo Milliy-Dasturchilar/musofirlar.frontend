@@ -1,4 +1,5 @@
 import React from "react";
+import FlatRoomImages from "../../components/flatRoomImages/FlatRoomImages";
 import HeadHeader from '../../components/headerTemplate/HeaderTemplate'
 import InputLocation from "../../components/inputLocation/inputLocation";
 
@@ -8,7 +9,8 @@ class Flat extends React.PureComponent {
         return (
             <div>
             <HeadHeader strongText={"IJARA UYLAR"} />
-            <InputLocation/>
+                <InputLocation />
+                <FlatRoomImages/>
             </div>
         );
     }
