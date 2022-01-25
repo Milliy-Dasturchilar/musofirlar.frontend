@@ -3,6 +3,28 @@
     margin: 0;
     padding: 0;
 }
+.room-container{
+position: relative;
+}
+.img-container{
+    text-align: center;
+    
+}
+.img-container div{
+    width: 100%;
+
+}
+.img-text{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 8px;
+    left: 55px;
+    background-color: #fff;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #FFB800;
+}
 .flat-room-image{
     width: 250px;
     height: 300px;
