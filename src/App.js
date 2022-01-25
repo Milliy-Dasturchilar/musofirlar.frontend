@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 class App extends React.PureComponent {
   render() {
     return (
-      <div className="App">
+      <div className="mt-5">
         <Routes>
           <Route path={"/"} element={<Home />} />
           <Route path={"/flat"} element={<Flat />} />

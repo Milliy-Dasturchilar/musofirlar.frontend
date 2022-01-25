@@ -30,61 +30,96 @@
 .country-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   border: 1px solid rgb(141, 133, 133);
   padding: 8px 20px;
   border-radius: 10px;
   background-color: #fff;
+  
 }
 #country {
+  width: 250px;
+  font-size: 20px;
   border: none;
   margin-left: 15px;
   background-color: transparent;
+  cursor: pointer;
 }
 .capital-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-around; */
+  width: 200px;
   border: 1px solid rgb(141, 133, 133);
   padding: 8px 20px;
   border-radius: 10px;
   background-color: #fff;
+  
 }
 #capital {
   border: none;
   margin-left: 15px;
   background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
 }
 .to-search {
   border: 1px solid rgb(141, 133, 133);
   background-color: #fff;
   padding: 8px 20px;
   border-radius: 10px;
+  width: 300px;
+  font-size: 20px;
 }
 .search-btn {
   border: none;
-  padding: 8px 20px;
+  padding: 12px 30px;
   background-color: #007fff;
   color: #fff;
-  font-size: 12px;
-  border-radius: 10px;
-  border: 1px solid #007fff;
+  font-size: 18px;
+  border-radius: 8px;
+  
 }
 .search-btn:hover {
+  opacity: 0.8;
+  border-radius: 8px;
+  
+}
+.search-btn:active {
   opacity: 0.6;
-  border-radius: 10px;
-  border: 1px solid #007fff;
+  border-radius: 8px;
+  
 }
 .input-location-advertisement {
-  padding: 8px 20px;
+  padding: 12px 20px;
   background-color: #fff;
   border-radius: 10px;
   cursor: pointer;
 }
+.input-location-advertisement:hover{
+  opacity: 0.8;
+}
 .advertisement-btn {
-  
+  font-size: 20px;
+  font-weight: 500;
   background-color: transparent;
-  padding: px 15px;
+  padding: 7px 15px;
   color: #007fff;
-  border: 1px solid #007fff;
+  border: 2px solid #007fff;
+  border-radius: 8px;
+}
+.advertisement-btn:hover{
+  opacity: 0.8;
+  border: 2px solid #fff;
+  background-color: #007fff;
+  color: #fff;
+  
+  
+}
+.advertisement-btn:active{
+  opacity: 0.6;
+  border: 2px solid #fff;
+  background-color: #007fff;
+  color: #fff;
+  
 }

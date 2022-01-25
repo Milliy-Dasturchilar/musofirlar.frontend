@@ -25,7 +25,7 @@ class InputLocation extends React.Component {
                                 <i className="far fa-building"></i>
                             </div>
                             <select name="capital" id="capital">
-                                <option value="london">london</option>
+                                <option value="london">London</option>
                                 <option value="berlin">Berlin</option>
                                 <option value="toshkent">Toshkent</option>
                             </select>
