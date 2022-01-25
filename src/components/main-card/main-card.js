@@ -28,7 +28,6 @@ class MainCard extends React.Component {
             type="button"
             className="btn  btn-outline-primary mb-3 pe-5 ps-5"
           >
-            {" "}
             Batafsil
           </button>
         </div>
