@@ -1,0 +1,8 @@
+.main-ish-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 70px;
+}
+

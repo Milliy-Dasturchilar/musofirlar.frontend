@@ -6,7 +6,7 @@ class ButtonMain extends React.Component {
      
     render() { 
         return (
-            <button className="btn-main">
+            <button className="btn-main " >
                 Batafsil
             </button>
         );
