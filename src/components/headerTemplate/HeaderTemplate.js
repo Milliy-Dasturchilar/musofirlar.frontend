@@ -2,9 +2,6 @@ import React from "react";
 import './HeaderTemplate.css';
 
 class HeadHeader extends React.PureComponent {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
 
