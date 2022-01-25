@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.input-location-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 200px;
+}
+
+.country-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.country-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000  ;
+    padding: 12px 25px;
+}
+#country{
+    border: none;
+}

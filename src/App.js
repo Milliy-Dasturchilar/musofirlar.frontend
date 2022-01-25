@@ -8,6 +8,7 @@ class App extends React.PureComponent {
     return (
       <div className="App">
         <Home />
+        <Flat/>
       </div>
     );
   }
