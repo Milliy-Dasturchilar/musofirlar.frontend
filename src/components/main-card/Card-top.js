@@ -1,6 +1,5 @@
 import React from "react";
-import ButtonMain from "./buttonMain/Button-main";
-
+import ButtonMain from "../buttonMain/Button-main";
 class CardTop extends React.Component {
   constructor(props) {
     super(props);
@@ -11,14 +10,17 @@ class CardTop extends React.Component {
         className="mt-5"
         style={{
           display: "flex",
-          alignItems: "flex-end",
+          alignItems: "center",
           justifyContent: "space-between",
         }}
       >
         <p
           style={{
             fontSize: "18px",
-            lineHeight: "25px",
+            lineHeight: "35px",
+            marginBottom: '0px',
+            paddingBottom:'0px'
+            
           }}
         >
           <b style={{ fontSize: "40px" }}>{this.props.cardTitle}</b> <br />

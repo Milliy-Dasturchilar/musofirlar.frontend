@@ -89,68 +89,7 @@ class MainCard extends React.Component {
             </div>
           </div>
         </section>
-        <section>
-          <div className="container">
-            <div>
-              <div class="ijara-top">
-                <div class="ijara-top-content">
-                  <span>Ish topish</span>
-                  <p>
-                    MUSOFIR.BIZ yordamida o'zingiz uchun qulay va hamyonbop
-                    ijara uylarini topishingiz mumkin!
-                  </p>
-                </div>
-                <a class="main-btn ijara-top-btn" href="#">
-                  Barchasi
-                </a>
-              </div>
-              <div class="main-ish-bottom">
-                <div class="ish-bottom-left">
-                  <a href="#">
-                    <div class="ish-bottom-card">
-                      <div>
-                        <i class="fas fa-users"></i>
-                        <span>Bag'ri keng jamoa</span>
-                      </div>
-                      <p>
-                        MUSOFIRLAR yordamida o'zingiz uchun qulay va <br />{" "}
-                        hamyonbop ijara uylarini topishingiz mumkin!
-                      </p>
-                    </div>
-                  </a>
-                  <div class="ish-bottom-card">
-                    <div>
-                      <i class="fas fa-dollar-sign"></i>
-                      <span>Yuqori maosh va yingil mehnat</span>
-                    </div>
-                    <p>
-                      MUSOFIRLAR yordamida o'zingiz uchun qulay va <br />{" "}
-                      hamyonbop ijara uylarini topishingiz mumkin!
-                    </p>
-                  </div>
-                  <div class="ish-bottom-card">
-                    <div>
-                      <i class="fas fa-mug-hot"></i>
-                      <span>Coffeebreak ham mavjud</span>
-                    </div>
-                    <p>
-                      MUSOFIRLAR yordamida o'zingiz uchun qulay va <br />{" "}
-                      hamyonbop ijara uylarini topishingiz mumkin!
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <img
-                    src="./img/ish-main.png"
-                    alt="main ish rasmi"
-                    width="600"
-                    height="600"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+       
       </div>
     );
   }
