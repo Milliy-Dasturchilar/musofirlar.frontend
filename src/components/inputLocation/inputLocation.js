@@ -1,15 +1,12 @@
 import React from "react";
 import "./inputLocation.css";
 
-class InputLocation extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+class InputLocation extends React.Component {   
 
     render() {
         return (
-            <div className="input-location-container container">
-                <div className="input-location-input">  
+            <div className="input-location-container">
+                <div className="input-location-input container">  
                     <form className="form" id="form">
                         <div className="country-container">
                             <div className="country-location">
@@ -33,12 +30,15 @@ class InputLocation extends React.Component {
                                 <option value="toshkent">Toshkent</option>
                             </select>
                         </div>
+                        <div className="search">
+
+                        </div>
 
                         <input type="text" placeholder="Write down here to search" className="to-search" />
-                        <button><i className="fas fa-search"></i></button>
+                        <button className="search-btn"><i className="fas fa-search search-icon"></i></button>
                     </form>
                     <div className="input-location-advertisement">
-                        <button>Elon berish</button>
+                        <button className="advertisement-btn">Elon berish</button>
                     </div>
                 </div>
 
