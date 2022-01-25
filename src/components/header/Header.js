@@ -1,68 +1,58 @@
 import React from "react";
 import "./Header.css";
 import Logo from "./MusofirlarLogo.svg";
+import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
   render() {
     return (
       <header className="header py-3 bg-light fixed-top">
         <div className="container-fluid header__container">
-          <a href="/" className="header__logo">
+          <Link to="/" className="header__logo">
             <img src={Logo} alt="Musofirlar"/>
-          </a>
+          </Link>
 
           <nav className="header__nav">
             <ul className="header__nav-list">
               <li className="header__nav-item">
-                <a href="/" className="header__nav-link">
+                <Link to="/" className="header__nav-link">
                   Bosh sahifa
-                </a>
+                </Link>
               </li>
               <li className="header__nav-item">
-                <a href="/" className="header__nav-link">
+                <Link to="/flat" className="header__nav-link">
                   Ijara uylar
-                </a>
+                </Link>
               </li>
               <li className="header__nav-item">
-                <a href="/" className="header__nav-link">
+                <Link to="/job" className="header__nav-link">
                   Ish topish
-                </a>
+                </Link>
               </li>
               <li className="header__nav-item">
-                <a href="/" className="header__nav-link">
+                <Link to="/embassy" className="header__nav-link">
                   Elchixonalar
-                </a>
+                </Link>
               </li>
               <li className="header__nav-item">
-                <a href="/" className="header__nav-link">
+                <Link to="/canteen" className="header__nav-link">
                   O’zbek oshxonasi
-                </a>
+                </Link>
               </li>
               <li className="header__nav-item">
-                <a href="/" className="header__nav-link">
+                <Link to="/other-servises" className="header__nav-link">
                   Qo’shimcha xizmatlar
-                </a>
+                </Link>
               </li>
               <li className="header__nav-item">
-                <a href="/" className="header__nav-link">
+                <Link to="/about" className="header__nav-link">
                   Biz haqimizda
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
 
           <div className="header__right">
-            <div className="language dropdown">
-              <button className="btn lang btn-light btn-sm dropdown-toggle" type="button" id="dropdownMenuButton1"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                Uz
-              </button>
-              <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-                <li><a className="dropdown-item" href="#">Uz</a></li>
-                <li><a className="dropdown-item" href="#">Ru</a></li>
-                <li><a className="dropdown-item" href="#">En</a></li>
-              </ul>
-            </div>
             <div className="user-profile">
               <div class="btn-group">
                 <button type="button" class="btn btn-primary btn-sm">Login</button>
@@ -71,16 +61,15 @@ class Header extends React.Component {
                   <span class="visually-hidden">Toggle Dropdown</span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><Link class="dropdown-item" to="#">Action</Link></li>
+                  <li><Link class="dropdown-item" to="#">Another action</Link></li>
+                  <li><Link class="dropdown-item" to="#">Something else here</Link></li>
                   <li><hr class="dropdown-divider"/></li>
-                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+                  <li><Link class="dropdown-item" to="#">Separated link</Link></li>
                 </ul>
               </div>
             </div>
           </div>
-
         </div>
       </header>
   );
