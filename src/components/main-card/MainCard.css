@@ -4,6 +4,15 @@
   width: inherit;
   border-radius: 35px;
 }
+
+.main-card-left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 385px;
+}
+
 .main-ijara-card {
   width: 370px;
   padding: 40px;

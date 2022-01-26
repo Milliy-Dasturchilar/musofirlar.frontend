@@ -1,0 +1,6 @@
+.embassy{
+  background-image: url(./flat.png);
+  height: 480px;
+  width: inherit;
+  border-radius: 35px;
+}

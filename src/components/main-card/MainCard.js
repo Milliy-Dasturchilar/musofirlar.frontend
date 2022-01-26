@@ -1,6 +1,6 @@
 import React from "react";
-import "./Main-card.css";
-import CardTop from "./Card-top";
+import "./MainCard.css";
+import CardTop from "./CardTop";
 
 class MainCard extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class MainCard extends React.Component {
             }
           />
 
-          <div className="container main-card  mt-4">
+          <div className="container main-card  mt-5">
             <div
               className="pt-5 ps-3 pe-3 "
               style={{
@@ -23,17 +23,33 @@ class MainCard extends React.Component {
                 justifyContent: "space-between",
               }}
             >
-              <p
-                className="pe-4 ps-4 pt-1 pb-1"
-                style={{
-                  backgroundColor: "white",
-                  display: "inline",
-                  borderRadius: "8px",
-                  fontSize: "30px",
-                }}
-              >
-                12/dona
-              </p>
+              <div className="main-card-left col-md-7">
+                <p
+                  className="pe-4 ps-4 pt-1 pb-1"
+                  style={{
+                    backgroundColor: "white",
+                    display: "inline",
+                    borderRadius: "8px",
+                    fontSize: "30px",
+                  }}
+                >
+                  12/dona
+                </p>
+
+                <p
+                  style={{
+                    color: "#fff",
+                    fontStyle: "normal",
+                    fontFamily: "Montserrat",
+                    fontWeight: 500,
+                    fontSize: "40px",
+                    lineHeight: "40px",
+                  }}
+                >
+                  Arzon narxda<br /> shinam va keng uy
+                  
+                </p>
+              </div>
 
               <div className="main-ijara-card">
                 <div className="ijara-user">
@@ -89,7 +105,6 @@ class MainCard extends React.Component {
             </div>
           </div>
         </section>
-
       </div>
     );
   }

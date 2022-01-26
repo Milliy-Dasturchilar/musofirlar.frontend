@@ -4,7 +4,7 @@ class CardTop extends React.Component {
   render() {
     return (
       <div
-        className="mt-5"
+        className="mt-5 container pt-5"
         style={{
           display: "flex",
           alignItems: "center",
@@ -20,7 +20,7 @@ class CardTop extends React.Component {
             
           }}
         >
-          <b style={{ fontSize: "40px" }}>{this.props.cardTitle}</b> <br />
+          <b style={{ fontSize: "40px", }}>{this.props.cardTitle}</b> <br />
           {this.props.cartText}
         </p>
         <ButtonMain />

@@ -8,7 +8,7 @@ class MainWorkContent extends React.Component {
   state = {};
   render() {
     return (
-      <div className="work-bottom-left">
+      <div className="work-bottom-left col-md-7">
         <a href="#" className="text-decoration-none">
           <div className="work-bottom-card">
             <div>
