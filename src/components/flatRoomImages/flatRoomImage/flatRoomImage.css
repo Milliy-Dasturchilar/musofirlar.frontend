@@ -5,6 +5,8 @@
 }
 .room-container{
 position: relative;
+height: 400px;
+
 }
 .img-container{
     text-align: center;
@@ -27,8 +29,75 @@ position: relative;
 }
 .flat-room-image{
     width: 250px;
-    height: 300px;
+    height: 250px;
 }
-.name{
-    color: red;
+.room-image-title-container{
+    position: absolute;
+    right: 48px;
+    top: 210px;
+    width: 230px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 3.5px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 3.48 0 0.4;
 }
+.flat-room-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flat-rooms{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 500;
+
+
+}
+.flat-price{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.room-equipment-container{
+    display: flex;
+    align-items: center;
+    color: #a5a5a5;
+    margin: 0;
+}
+.room-equipment-title{
+    display: flex;
+    align-items: center;
+}
+
+  .room-equipment-container> span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .room-equipment-container > div {
+    width: 110px;
+    margin-top: 15px;
+  }
+
+  .room-equipment-container .fas {
+    margin-right: 5px;
+  }
+  .flat-about-btn{
+      margin-top: 15px;
+      padding: 5px 18px;
+      border: 2px solid #FFB800;
+      color: #FFB800;
+      background-color: #fff;
+      border-radius: 8px;
+  }
+  .flat-about-btn:hover{
+      background-color: #FFB800;
+      color: #fff;
+  }
+  .flat-about-btn:active{
+      opacity: 0.8;
+  }
