@@ -1,6 +1,4 @@
-.right {
-  text-align: right;
-}
+
 
 .work-bottom-card {
   margin-top: 30px;
@@ -9,6 +7,7 @@
   border-radius: 20px;
   cursor: pointer;
   color: #007fff;
+
 }
 .work-bottom-card:hover {
   box-shadow: 0px 0px 4px 3px rgba(0, 127, 255, 0.25);
@@ -29,8 +28,8 @@
   font-family: "Gilroy" sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 25.6391px;
-  line-height: 31px;
+  font-size: 30px;
+  line-height: 33px;
 }
 
 .work-bottom-card > p {
