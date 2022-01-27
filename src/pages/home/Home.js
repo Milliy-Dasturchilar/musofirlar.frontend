@@ -50,7 +50,7 @@ class Home extends React.Component {
               Eng yaqin elchixonalarni
               <br /> oson toping
             </p>
-
+ 
             <div className="col-md-4">
               <img src={mapImage} style={{ width: "330px", heigth: "230px" }} />
             </div>
