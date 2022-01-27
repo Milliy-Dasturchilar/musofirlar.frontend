@@ -9,6 +9,7 @@ import mapImage from './mapImage.png';
 import MainWorkContent from "../../components/mainWork/mainWorkContent/MainWorkContent";
 import kitchenImage from './oshxona.png'
 import Mosque from "../../components/mosque/Mosque";
+import TaxiMain from "../../components/taxiMain/TaxiMain";
 
 class Home extends React.Component {
   render() {
@@ -124,7 +125,8 @@ class Home extends React.Component {
         </div>
 {/* Masjidlar bo'limi */}
 <Mosque />
-
+{/* Taxi bo'limi */}
+<TaxiMain />
 
       </div>
     );
