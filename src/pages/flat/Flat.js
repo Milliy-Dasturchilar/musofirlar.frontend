@@ -1,4 +1,5 @@
 import React from "react";
+import FlatButtons from "../../components/flatRoomImages/flatRoomButtons/FlatButtons";
 import FlatRoomImages from "../../components/flatRoomImages/FlatRoomImages";
 import HeadHeader from '../../components/headerTemplate/HeaderTemplate'
 import InputLocation from "../../components/inputLocation/inputLocation";
@@ -10,12 +11,13 @@ class Flat extends React.PureComponent {
             <div>
             <HeadHeader strongText={"IJARA UYLAR"} />
                 <InputLocation />
-                <FlatRoomImages/>
+                <FlatRoomImages imagesTitle={"Qidiruv natijalari"}/>
                 <MainCard/>
                 <FlatRoomImages/>
                 <FlatRoomImages/>
                 <FlatRoomImages/>
                 <FlatRoomImages/>
+                <FlatButtons/>
             </div>
         );
     }

@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.flat-btn{
+    margin-right: 20px;
+    padding:5px 10px;
+    background-color: #fff;
+    color: #007fff;
+    border: 2px solid #007fff;
+    border-radius: 8px;
+}
+.flat-btn:hover{
+    background-color: #007fff;
+    color: #fff;
+}
+.flat-btn:active{
+    opacity: 0.8;
+}
