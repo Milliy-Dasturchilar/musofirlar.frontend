@@ -1,8 +1,10 @@
 import React from "react";
+import FlatButtons from "../../components/flatRoomImages/flatRoomButtons/FlatButtons";
 import FlatRoomImages from "../../components/flatRoomImages/FlatRoomImages";
 import HeadHeader from '../../components/headerTemplate/HeaderTemplate'
 import InputLocation from "../../components/inputLocation/inputLocation";
-import MainCard from "../../components/main-card/MainCard";
+    
+import MainCardBottom from "../../components/main-card/MainCardBottom";
 
 class Flat extends React.PureComponent {
     render() {
@@ -10,12 +12,13 @@ class Flat extends React.PureComponent {
             <div>
             <HeadHeader strongText={"IJARA UYLAR"} />
                 <InputLocation />
-                <FlatRoomImages/>
-                <MainCard/>
-                <FlatRoomImages/>
-                <FlatRoomImages/>
+                <FlatRoomImages imagesTitle={"Qidiruv natijalari"}/>
+                <MainCardBottom/>
                 <FlatRoomImages/>
                 <FlatRoomImages/>
+                <FlatRoomImages/>
+                <FlatRoomImages/>
+                <FlatButtons/>
             </div>
         );
     }
