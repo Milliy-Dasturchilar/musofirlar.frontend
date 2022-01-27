@@ -5,7 +5,9 @@ import MainCard from "../../components/main-card/MainCard";
 import MainWork from "../../components/mainWork/MainWork";
 import CardTop from "../../components/main-card/CardTop";
 import photo from "./flat.png";
-import mapImage from './mapImage.png'
+import mapImage from './mapImage.png';
+import kitchenImage from './oshxona.png'
+import MainWorkContent from "../../components/mainWork/mainWorkContent/MainWorkContent";
 
 class Home extends React.Component {
   render() {
@@ -56,12 +58,69 @@ class Home extends React.Component {
         </div>
 
         {/* Oshxona Restoran */}
-        <CardTop
-          cardTitle={"O’zbek - oshxonasi va restoranlar"}
-          cartText={
-             ' MUSOFIRLAR.UZ yordamida o’zingiz uchun qulay va hamyonbop ijara uylarini topishingiz mumkin!'
-          }
-        />
+        <div className="container">
+          <CardTop
+            cardTitle={"O’zbek - oshxonasi va restoranlar"}
+            cartText={
+              " MUSOFIRLAR.UZ yordamida o’zingiz uchun qulay va hamyonbop ijara uylarini topishingiz mumkin!"
+            }
+          />
+
+          <div
+            className="main-kitchen-bottom row mt-5"
+            style={{
+              display: "flex",
+              alignItems: "flex-end",
+              justifyContent: "space-between",
+            }}
+          >
+            <div className=" Main-kitchen-Photo  col-md-5">
+              <img
+                src={kitchenImage}
+                style={{ width: "450px", height: "500px" }}
+              />
+            </div>
+
+            <div className="kitchen-right col-md-7">
+              <a href="#" className="text-decoration-none">
+                <div>
+                  <div>
+                    <span>O’zbek milliy taomlar</span>
+                    <i class="fas fa-hamburger"></i>
+                  </div>
+                  <p>
+                    MUSOFIRLAR.UZ yordamida o'zingiz uchun qulay va hamyonbop
+                    ijara uylarini topishingiz mumkin!
+                  </p>
+                </div>
+              </a>
+              <a href="#">
+                <div>
+                  <div>
+                    <span>Halol mahsulotlar</span>
+                    <i class="fas fa-check-circle"></i>
+                  </div>
+                  <p>
+                    MUSOFIR.BIZ yordamida o’zingiz uchun qulay va hamyonbop
+                    ijara uylarini topishingiz mumkin!
+                  </p>
+                </div>
+              </a>
+              <a href="#">
+                <div>
+                  <div>
+                    <span>O’zbekona xizmat</span>
+                    <i class="fas fa-hands-helping"></i>
+                  </div>
+                  <p>
+                    MUSOFIR.BIZ yordamida o’zingiz uchun qulay va hamyonbop
+                    ijara uylarini topishingiz mumkin!
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

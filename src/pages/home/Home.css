@@ -4,3 +4,27 @@
   width: inherit;
   border-radius: 35px;
 }
+
+.main-kitchen-bottom{
+    display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.Main-kitchen-Photo{
+  position: relative;
+}
+
+.Main-kitchen-Photo::before{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 60px;
+  width: 450px;
+  height: 500px;
+  border: 2px solid #007FFF;
+  border-radius: 18px;
+  bottom: 40px;
+  z-index: -1;
+}
