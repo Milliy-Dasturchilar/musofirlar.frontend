@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.job-container{
+    position: relative;
+}
+.job-image{
+   width: 300px;
+   height: 260px;
+}
+.img-text-new{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    background-color: #fff;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #FFB800;
+}
+.job-equipment-container{
+    display: flex;
+    align-items: center;
+    color: #a5a5a5;
+    margin: 0;
+}
