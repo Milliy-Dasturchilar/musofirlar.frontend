@@ -17,10 +17,10 @@ class Mosque extends React.Component {
                     }
                 />
                 <div className="container">
-                <div className="container mt-4 row">
-                    <img src={Mosque1} className="col-md-4 mt-3" />
-                    <img src={Mosque2} className="col-md-4 mt-3" />
-                    <img src={Mosque3} className="col-md-4 mt-3" />
+                <div className= "mosque-img container mt-4 row ">
+                    <img src={Mosque1} className=" mosque-img-item col-md-4 mt-3" />
+                    <img src={Mosque2} className=" mosque-img-item col-md-4 mt-3" />
+                    <img src={Mosque3} className=" mosque-img-item col-md-4 mt-3" />
 
                 </div>
                     </div>

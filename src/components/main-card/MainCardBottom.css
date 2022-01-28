@@ -124,6 +124,12 @@
     color: #007fff;
   }
   
+  .btn-item{
+    width: 140px;
+    text-align: center;
+    transition: 0.7s;
+  }
+
   .main-ish-bottom {
     display: flex;
     align-items: center;
