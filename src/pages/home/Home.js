@@ -6,8 +6,10 @@ import MainWork from "../../components/mainWork/MainWork";
 import CardTop from "../../components/main-card/CardTop";
 import photo from "./flat.png";
 import mapImage from './mapImage.png';
-import kitchenImage from './oshxona.png'
 import MainWorkContent from "../../components/mainWork/mainWorkContent/MainWorkContent";
+import kitchenImage from './oshxona.png'
+import Mosque from "../../components/mosque/Mosque";
+import TaxiMain from "../../components/taxiMain/TaxiMain";
 
 class Home extends React.Component {
   render() {
@@ -81,9 +83,9 @@ class Home extends React.Component {
               />
             </div>
 
-            <div className="kitchen-right col-md-7">
+            <div className="kitchen-right col-md-6">
               <a href="#" className="text-decoration-none">
-                <div>
+                <div className="kitchen-right-card">
                   <div>
                     <span>O’zbek milliy taomlar</span>
                     <i class="fas fa-hamburger"></i>
@@ -94,8 +96,8 @@ class Home extends React.Component {
                   </p>
                 </div>
               </a>
-              <a href="#">
-                <div>
+              <a href="#" className="text-decoration-none">
+                <div className="kitchen-right-card">
                   <div>
                     <span>Halol mahsulotlar</span>
                     <i class="fas fa-check-circle"></i>
@@ -106,8 +108,8 @@ class Home extends React.Component {
                   </p>
                 </div>
               </a>
-              <a href="#">
-                <div>
+              <a href="#" className="text-decoration-none">
+                <div className="kitchen-right-card">
                   <div>
                     <span>O’zbekona xizmat</span>
                     <i class="fas fa-hands-helping"></i>
@@ -121,6 +123,11 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+{/* Masjidlar bo'limi */}
+<Mosque />
+{/* Taxi bo'limi */}
+<TaxiMain />
+
       </div>
     );
   }

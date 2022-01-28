@@ -22,3 +22,13 @@
   bottom: 40px;
   z-index: -1;
 }
+.Main-Work-Photo>img{
+  position: absolute;
+ bottom: 0;
+  left: 0;
+ transition: 1s;
+}
+.Main-Work-Photo>img:hover{
+left: 60px;
+bottom: 40px;
+}

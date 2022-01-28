@@ -17,7 +17,7 @@ class HeadHeader extends React.PureComponent {
                 <div className="container header-bottom-container">
                     <div className="header-bottom-item">
                         <div>
-                            <span className="tex1">{this.props.strongText}</span>
+                            <span className="tex1 ">{this.props.strongText}</span>
                             { this.props.hasSmallText ? smallText : "" }
                         </div>
                         <p className="text3">

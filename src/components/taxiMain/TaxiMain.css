@@ -1,0 +1,82 @@
+.Taxi-bottom{
+    background-image: url('./Taxi.png');
+    background-repeat: no-repeat;
+    height: 480px;
+    width: inherit;
+    border-radius: 35px;
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding-bottom: 50px;
+}    
+.text-bottom-content{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 40px;
+color: #FFFFFF;
+}
+
+.bottom-card{
+    background-color: #FFFFFF;
+    width: 180px;
+    margin-right: 23px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 15px;
+    padding-bottom: 25px;
+    transition: 1s;
+}
+.bottom-card:hover{
+    box-shadow: 0px 0px 4px 3px rgba(0, 127, 255, 0.25);
+    transform: scale(1.2);
+    color: #000;
+}
+
+.bottom-card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 25px;
+    color: #000000;
+}
+.bottom-card>ul{
+    padding: 0;
+    list-style: inside;
+}
+.bottom-card>ul>li{
+    padding: 0;
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.3989px;
+    line-height: 22px;
+    color: #5F5F5F;
+}
+
+.bottom-card>div{
+    margin: 0;
+}
+
+.bottom-card-cheap{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 35px;
+color: #007FFF;
+margin-right: 15px  ;
+}
+
+.bottom-card-expensive{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px; 
+    color: #000000;
+    text-decoration: line-through;
+}

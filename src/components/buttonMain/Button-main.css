@@ -1,15 +1,20 @@
 .btn-main{
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 17px;
   color: #ffffff;
   padding: 11px 27px;
   background-color: #007fff;
   border-radius: 22px;
   border: 2px solid #007fff;
+  transition: 0.7s;
 }
 .btn-main:hover {
   background-color: #fff;
   color: #007fff;
+}
+.fa-long-arrow-alt-right{
+  font-size: 20px;
+  margin-left: 10px;
 }

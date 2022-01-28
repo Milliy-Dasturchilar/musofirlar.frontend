@@ -15,7 +15,7 @@
 /* header-card */
 
 .header-bottom-item {
-  max-width: 520px;
+  max-width: 550px;
   width: 100%;
   text-align: center;
   margin: auto;
@@ -26,6 +26,7 @@
   border-bottom: 5px solid #000;
   margin: 0;
 }
+
 .tex1 {
   font-family: "Ubuntu", sans-serif;
   font-style: normal;
@@ -33,6 +34,7 @@
   font-size: 80px;
   line-height: 100px;
   margin: 0 15px 0 0;
+  margin: auto;
 }
 .text2 {
   font-family: "Ubuntu", sans-serif;
@@ -67,9 +69,11 @@
   background-color: #007fff;
   border-radius: 33px;
   margin-top: 65px;
+  transition: 0.7s;
 }
 .main-btn:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+  color: #ffffff;
 }
 .main-btn:active {
   opacity: 0.6;

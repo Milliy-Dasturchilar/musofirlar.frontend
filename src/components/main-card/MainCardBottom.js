@@ -89,10 +89,10 @@ class MainCardBottom extends React.Component {
                   </div>
                 </div>
                 <div className="ijara-btns">
-                  <a className="text-decoration-none" href="#">
+                  <a className="text-decoration-none btn-item" href="#">
                     Bog'lanish
                   </a>
-                  <a className="text-decoration-none" href="#">
+                  <a className="text-decoration-none btn-item" href="#">
                     Ma'lumotlar
                   </a>
                 </div>
