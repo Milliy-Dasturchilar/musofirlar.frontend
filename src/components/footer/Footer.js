@@ -21,19 +21,19 @@ class Footer extends React.Component {
         </ul>
 
         <ul className="footer-link">
-            <li className="footer-links"><a href="https://t.me/Murodov_Bakhtiyor"><i className="fab fa-telegram"></i></a></li>
+            <li className="footer-links"><a href="https://t.me/Murodov_Bakhtiyor"><i className="fab fa-telegram fab-branch"></i></a></li>
             <li className="footer-links"><a href="https://facebook.com/bakhtiyor.murodov1249"><i
-                        className="fab fa-facebook"></i></a></li>
-            <li className="footer-links"><a href="https://youtube.com"><i className="fab fa-youtube"></i></a>
+                        className="fab fa-facebook fab-branch"></i></a></li>
+            <li className="footer-links"><a href="https://youtube.com"><i className="fab fa-youtube fab-branch"></i></a>
             </li>
 
             <li className="footer-links"><a href="https://instagram.com/_baxtiyor.murodov_"><i
-                        className="fab fa-instagram"></i></a>
+                        className="fab fa-instagram fab-branch"></i></a>
             </li>
-            <li className="footer-links"><a href="https://twiter.com/BaxtiyorMurodo2"><i className="fab fa-twitter"></i></a>
+            <li className="footer-links"><a href="https://twiter.com/BaxtiyorMurodo2"><i className="fab fa-twitter fab-branch"></i></a>
             </li>
             <li className="footer-links"><a href="https://www.linkedin.com/in/baxtiyor-murodov"><i
-                        className="fab fa-linkedin-in"></i></a></li>
+                        className="fab fa-linkedin-in fab-branch"></i></a></li>
         </ul>
         <div className="footer-bottom"><img src="./img/first/footer-icon.png" alt="" />
             <span className="footer-text">
