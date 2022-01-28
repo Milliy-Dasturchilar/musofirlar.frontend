@@ -4,6 +4,7 @@ import MainCardBottom from "./MainCardBottom";
 
 class MainCard extends React.Component {
   render() {
+    const a = <div>Arzon narxda <br/> shinam va keng uy</div>
     return (
       <div>
         <section className="container">
@@ -13,7 +14,7 @@ class MainCard extends React.Component {
               "MUSOFIRLAR.UZ yordamida o'zingiz uchun qulay va hamyonbop ijara uylarinitopishingiz mumkin!"
             }
           />
-<MainCardBottom mainCardTitle={"Arzon narxda shinam va keng uy"}/>
+<MainCardBottom mainCardTitle={a}/>
             
         </section>
       </div>

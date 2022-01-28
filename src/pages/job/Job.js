@@ -10,12 +10,13 @@ import MainCardBottom from "../../components/main-card/MainCardBottom";
 class Job extends React.PureComponent {
    
     render() { 
+      const a =<div>Ko’proq imkoniyatga <br/>ega kasblarga erishing</div>
         return ( 
             <div>
               <HeadHeader strongText={"ISH TOPISH"}/>
               <InputLocation/>
               <JobImages imagesTitle={"Qidiruv natijalari"}/>
-              <MainCardBottom  mainCardTitle={"Ko’proq imkoniyatga ega kasblarga erishing"}/>
+              <MainCardBottom  mainCardTitle={a}/>
               <JobImages />
               <JobImages />
               <JobImages />
