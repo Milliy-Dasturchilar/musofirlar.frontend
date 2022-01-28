@@ -1,3 +1,88 @@
-.footer__logo img {
-    width: 130px;
+.site-footer {
+    background-color: #07012f;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 25px;
+  }
+  .footer-container {
+      max-width: 1100px;
+      width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
+
+.footer-title {
+    margin: 0;
+    margin-bottom: 41px;
+}
+.footer-list {
+      border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+  .footer-item > a {
+    font-family: "Montserat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footer-item>a:hover{
+      color: rgb(12, 112, 151);
+  }
+  
+  .footer-item>a:active{
+      opacity: 0.7;
+  }
+  
+  .fab{
+      font-size: 35px;
+      color: #ffffff;
+      margin-top: 25px;
+  }
+  
+  .fab:hover{
+      color: rgb(12, 112, 151);
+  }
+  .fab:active{
+      opacity: 0.7;
+  }
+  .footer-container > hr {
+    max-width: 700px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 410px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 25px;
+  }
+  .footer-container>div>img{
+   margin-bottom: -7px;
+  } 
+  .footer-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    color: #ffffff;
+    
+  }
+  .footer-text>a{
+      text-decoration: none;
+      color: #1e71ee;
+  }

@@ -5,113 +5,45 @@ import "./Footer.css";
 class Footer extends React.Component {
   render() {
     return (
-      <footer className="footer bg-primary py-4 mt-5">
-        <div className="container text-light">
-          <div className="row py-3 border-bottom">
-            <div className="my-2 col-md-5">
-              <div className="footer__logo flex-column">
-                <img src={Logo} alt="Musofirlar" className="img-fluid"/>
-              </div>
-              <p className="footer__text mt-3 pe-lg-5 fs-6">
-                Musofirlar.uz yordamida o’zingiz uchun qulay va hamyonbop ijara uylarini topishingiz mumkin!
-              </p>
-            </div>
-            <div className="my-2 col-md-2">
-              <nav className="footer__nav">
-                <ul className="footer__nav-list m-0 p-0">
-                  <li className="footer__nav-item">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Bosh sahifa
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Ijara uylar
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Ish topish
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Elchixonalar
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      O’zbek oshxonasi
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div className="my-2 col-md-3">
-              <nav className="footer__nav">
-                <ul className="footer__nav-list m-0 p-0">
-                  <li className="footer__nav-item">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Masjidlar
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Qo’shimcha ma’lumotlar
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Biz haqimizda
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Ko’p beriladigan savollar
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Linkedin
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div className="my-2 col-md-2">
-              <nav className="footer__nav">
-                <ul className="footer__nav-list m-0 p-0">
-                  <li className="footer__nav-item">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Telegram
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Twitter
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Facebook
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Instagram
-                    </a>
-                  </li>
-                  <li className="footer__nav-item mt-1">
-                    <a href="/" className="footer__nav-link text-decoration-none text-light">
-                      Youtube
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
+      <div className="mt-5">
+        <footer className="site-footer">
+    <div className=" footer-container">
+        <img className="footer-title" src={Logo} />
+        <ul className="footer-list">
+            <li className="footer-item"><a href="#">Bosh sahifa</a></li>
+            <li className="footer-item"><a href="#">Ijara uylar</a></li>
+            <li className="footer-item"><a href="#">Ish topish</a></li>
+            <li className="footer-item"><a href="#">Elchixonalar</a></li>
+            <li className="footer-item"><a href="#">O'zbek oshxonasi</a></li>
+            <li className="footer-item"><a href="#">Masjidlar</a></li>
+            <li className="footer-item"><a href="#">Qo'shimcha ma'lumotlar</a></li>
+            <li className="footer-item"><a href="#">Biz haqimizda</a></li>
+        </ul>
+
+        <ul className="footer-link">
+            <li className="footer-links"><a href="https://t.me/Murodov_Bakhtiyor"><i className="fab fa-telegram"></i></a></li>
+            <li className="footer-links"><a href="https://facebook.com/bakhtiyor.murodov1249"><i
+                        className="fab fa-facebook"></i></a></li>
+            <li className="footer-links"><a href="https://youtube.com"><i className="fab fa-youtube"></i></a>
+            </li>
+
+            <li className="footer-links"><a href="https://instagram.com/_baxtiyor.murodov_"><i
+                        className="fab fa-instagram"></i></a>
+            </li>
+            <li className="footer-links"><a href="https://twiter.com/BaxtiyorMurodo2"><i className="fab fa-twitter"></i></a>
+            </li>
+            <li className="footer-links"><a href="https://www.linkedin.com/in/baxtiyor-murodov"><i
+                        className="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <div className="footer-bottom"><img src="./img/first/footer-icon.png" alt="" />
+            <span className="footer-text">
+                Copyright 2022 All rigths reserved. Powered by <a
+                    href="https://saminjonovsanjarbek.github.io/Mdevs-team/">MDevs</a>
+            </span>
         </div>
-      </footer>
+    </div>
+</footer>
+      </div>
     );
   }
 }
