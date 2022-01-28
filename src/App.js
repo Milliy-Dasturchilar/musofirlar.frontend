@@ -4,6 +4,7 @@ import Flat from "./pages/flat/Flat";
 import Job from "./pages/job/Job"
 
 import { Routes, Route } from "react-router-dom";
+import Embassy from "./pages/embassy/Embassy";
 
 class App extends React.PureComponent {
   render() {
@@ -13,6 +14,7 @@ class App extends React.PureComponent {
           <Route path={"/"} element={<Home />} />
           <Route path={"/flat"} element={<Flat />} />
           <Route path={"/job"} element={<Job />} />
+          <Route path={"/embassy"} element={<Embassy />} />
         </Routes>
       </div>
     );

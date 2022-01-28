@@ -4,7 +4,7 @@ import './HeaderTemplate.css';
 class HeadHeader extends React.PureComponent {
 
     render() {
-
+         
         const smallText = (
             <span className="text2">
                 biz bilan bo'ling! <br/>
