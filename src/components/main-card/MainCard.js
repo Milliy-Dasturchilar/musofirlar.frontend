@@ -13,7 +13,7 @@ class MainCard extends React.Component {
               "MUSOFIRLAR.UZ yordamida o'zingiz uchun qulay va hamyonbop ijara uylarinitopishingiz mumkin!"
             }
           />
-<MainCardBottom />
+<MainCardBottom mainCardTitle={"Arzon narxda shinam va keng uy"}/>
             
         </section>
       </div>
