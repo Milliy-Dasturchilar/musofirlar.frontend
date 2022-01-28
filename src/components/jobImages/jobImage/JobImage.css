@@ -21,9 +21,90 @@
     border-radius: 5px;
     color: #FFB800;
 }
+.job-card-title-container{
+    width: 300px;
+    padding: 25px;
+    box-shadow: 0px 0px 3.5px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 10px 10px;
+}
+.job-card-title{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-size: Gilroy;
+    font-weight: 600;
+    color: #000;
+}
+.job-card-title span{
+    color:#FFB800;
+}
+.sum{
+    font-size: 10px;
+    display: inline-block;
+}
+.job-card-text{
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+    color: #737373;
+}
 .job-equipment-container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: #a5a5a5;
-    margin: 0;
+    margin-bottom: 10px;
+    width: 80%;
+    
+}
+.job-equipment-title{
+   width: 50%;
+   font-size: 13px;
+    
+    
+}
+.job-equipment-title i{
+    margin-right: 4px;
+}
+.job-container-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.contact-job-btn{
+    padding: 8px 20px;
+    font-family: Gilory;
+    background-color: #007fff;
+    color: #fff;
+    border:2px solid #007fff ;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+.contact-job-btn:hover{
+    background-color: #fff;
+    color: #007fff;
+    border: 2px solid #007fff;
+}
+.contact-job-btn:active{
+    opacity: 0.8;
+    background-color: #007fff;
+    color: #fff;
+}
+.detailed-job-btn{
+    padding: 7px 29px;
+    font-family: Gilory;
+    color: #007fff;
+    background-color: #fff;
+    border-radius: 5px;
+    border:2px solid #007fff;
+    transition: 0.7s;
+}
+.detailed-job-btn:hover{
+    background-color: #007fff;
+    color: #fff;
+}
+.detailed-job-btn:active{
+    opacity: 0.8;
 }
