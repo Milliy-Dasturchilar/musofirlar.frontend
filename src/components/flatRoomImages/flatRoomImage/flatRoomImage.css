@@ -94,6 +94,7 @@ margin-bottom: 30px;
       color: #FFB800;
       background-color: #fff;
       border-radius: 8px;
+      transition: all 0.7s;
   }
   .flat-about-btn:hover{
       background-color: #FFB800;
