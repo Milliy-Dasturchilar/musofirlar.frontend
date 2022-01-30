@@ -45,7 +45,7 @@ class Header extends React.Component {
                 </Link>
               </li>
               <li className="header__nav-item">
-                <Link to="/about" className="header__nav-link">
+                <Link to="/register" className="header__nav-link">
                   Biz haqimizda
                 </Link>
               </li>
@@ -61,7 +61,7 @@ class Header extends React.Component {
                   <span class="visually-hidden">Toggle Dropdown</span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><Link class="dropdown-item" to="#">Action</Link></li>
+                  <li><Link class="dropdown-item" to="/">Action</Link></li>
                   <li><Link class="dropdown-item" to="#">Another action</Link></li>
                   <li><Link class="dropdown-item" to="#">Something else here</Link></li>
                   <li><hr class="dropdown-divider"/></li>
