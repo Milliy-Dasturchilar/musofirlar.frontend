@@ -9,9 +9,7 @@ class JobImage extends React.Component {
         return (
             <div className="col-md-3 job-container">
                 <div className="img-container">
-                    <div>
-                        <img src={Photo} className="job-image" />
-                    </div>
+                    <img src={Photo} className="job-image" />
                 </div>
                 <p className="img-text-new">Yangi</p>
                 <div className="job-card-title-container">

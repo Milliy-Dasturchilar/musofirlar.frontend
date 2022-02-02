@@ -8,7 +8,7 @@ class FlatRoomImages extends PureComponent {
     }
     render() {
         return (
-            <div className="container">
+            <div className="container" style={{padding:"0"}}>
                 <h2 className="mb-5 mt-5">{this.props.imagesTitle}</h2>
                 <div className="row p-0 m-0">
                     <FlatRoomImage />

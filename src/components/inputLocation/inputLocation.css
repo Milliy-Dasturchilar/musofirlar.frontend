@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0;
 }
 
 .country-container {
@@ -24,7 +25,7 @@
   width: 80%;
   background-color: #fff;
   border-radius: 12px;
-  margin: 20px;
+  margin: 20px 0;
   padding: 10px;
 }
 .country-container {

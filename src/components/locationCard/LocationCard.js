@@ -1,6 +1,6 @@
 import React from "react";
 import Photo from "./locationCard.png"
-
+import "./LocationCard.css"
 class LocationCard extends React.PureComponent {
     constructor(props) {
         super(props);
@@ -8,8 +8,8 @@ class LocationCard extends React.PureComponent {
     state = {}
     render() {
         return (
-            <div className="container mt-5" style={{width:"100%"}}>
-                <img src={Photo} className="container" style={{width:"100%"}}/>
+            <div className="container mt-5 img-container" >
+                <img src={Photo} className="container EK-card" />
             </div>
         );
     }
