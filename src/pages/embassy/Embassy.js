@@ -13,7 +13,9 @@ class Embassy extends React.PureComponent {
         return ( 
             <div>
                <HeadHeader strongText={"ELCHIXONALAR"} />
-               <InputLocation />
+                <InputLocation
+                cardLink={''}
+                />
                <EmbassyCards />
                <LocationCard />
             </div>

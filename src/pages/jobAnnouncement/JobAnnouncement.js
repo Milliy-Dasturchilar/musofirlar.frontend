@@ -1,7 +1,7 @@
 import React from "react";
-import "./Announcement.css";
+import "./JobAnnouncement.css";
 
-class Announcement extends React.Component {
+class JobAnnouncement extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -25,32 +25,36 @@ class Announcement extends React.Component {
                 </select>
                 <input
                   className="card-input card-input-cost"
-                  placeholder="Narxi"
-                ></input>
+                  placeholder="Oylik"
+                />
                 <select className="card-input">
-                  <option>Jihozlar</option>
-                  <option>hamma jihozlar bor</option>
-                  <option>deyarli bor</option>
+                  <option>Ovqat</option>
+                  <option>Palov</option>
+                  <option>Qozon Kabob</option>
                 </select>
+                <input
+                  className="card-input card-input-cost"
+                  placeholder="Ish soati"
+                />
               </div>
 
               <div className="card-top-right">
                 <select className="card-input">
-                  <option>Xonalar soni</option>
-                  <option>3ta</option>
-                  <option>5ta</option>
+                  <option>Ish turi</option>
+                  <option>Kunduzgi</option>
+                  <option>Kechki</option>
                 </select>
 
                 <select className="card-input">
-                  <option>Sanuzel soni</option>
-                  <option>2ta</option>
-                  <option>1ta</option>
+                  <option>Ishchilar soni</option>
+                  <option>15ta</option>
+                  <option>35ta</option>
                 </select>
 
                 <select className="card-input">
-                  <option>Qavat</option>
-                  <option>18-qavat</option>
-                  <option>3-qavat</option>
+                  <option>Yotoq</option>
+                  <option>Dom</option>
+                  <option>Kontainer</option>
                 </select>
 
                 <div className="card-input card-input-img">
@@ -64,16 +68,12 @@ class Announcement extends React.Component {
 
             <div>
               <textarea
-                className="addres"
-                placeholder="To’liq manzilni kiriting ..."
-              ></textarea>
-              <textarea
                 className="about-home"
-                placeholder="Uy haqida batafsil ..."
+                placeholder="Qo’shimcha ma’lumot ..."
               ></textarea>
               <textarea
                 className="additional"
-                placeholder="Qo’shimcha qulayliklar ..."
+                placeholder="Talablar:"
               ></textarea>
               <div className="announcement-btn">
                 <div className="btn_1">
@@ -96,4 +96,4 @@ class Announcement extends React.Component {
   }
 }
 
-export default Announcement;
+export default JobAnnouncement;
