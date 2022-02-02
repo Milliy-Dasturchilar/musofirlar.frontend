@@ -58,7 +58,10 @@ class Register extends React.Component {
                   </button>
                   <p className="register-content me-2">
                     Profilingiz mavjudmi?
-                    <Link to='/login' className="ms-2 text-decoration-none" >
+                    <Link
+                      to="/login"
+                      className="ms-2 text-decoration-none fs-5 fw-bold"
+                    >
                       Kirish
                     </Link>
                   </p>
