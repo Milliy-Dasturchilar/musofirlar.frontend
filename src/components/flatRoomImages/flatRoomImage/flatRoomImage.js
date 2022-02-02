@@ -9,7 +9,7 @@ class FlatRoomImage extends PureComponent {
         return (
             <div className="col-md-3 room-container">
                 <div className="img-container">
-                    <div> <img src={Photo} className="flat-room-image" /></div>
+                     <img src={Photo} className="flat-room-image" />
                 </div>
                 <p className="img-text">Yangi</p>
                 <div className="room-image-title-container">

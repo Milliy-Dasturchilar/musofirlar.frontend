@@ -5,10 +5,18 @@
 }
 .job-container{
     position: relative;
+    padding: 0;
+    
+    text-align: center;
+}
+.img-container{
+    text-align: start;
 }
 .job-image{
    width: 300px;
    height: 260px;
+   
+   text-align: start;
 }
 .img-text-new{
     margin: 0;
@@ -22,7 +30,9 @@
     color: #FFB800;
 }
 .job-card-title-container{
+    margin: 0;
     width: 300px;
+    text-align: center;
     padding: 25px;
     box-shadow: 0px 0px 3.5px rgba(0, 0, 0, 0.25);
     border-radius: 0 0 10px 10px;
