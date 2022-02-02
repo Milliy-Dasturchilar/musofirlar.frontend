@@ -1,5 +1,6 @@
 import React from "react";
 import "./inputLocation.css";
+import{Link} from 'react-router-dom'
 
 class InputLocation extends React.Component {   
 
@@ -38,7 +39,7 @@ class InputLocation extends React.Component {
                         <button className="search-btn"><i className="fas fa-search search-icon"></i></button>
                     </form>
                     <div className="input-location-advertisement">
-                        <button className="advertisement-btn">Elon berish</button>
+                        <button className="advertisement-btn"><Link to='/announcement'>E'lon berish</Link></button>
                     </div>
                 </div>
 

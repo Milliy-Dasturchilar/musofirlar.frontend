@@ -2,6 +2,11 @@
   height: 100%;
 }
 
+.login-form{
+  height: 460px;
+  margin-bottom: 160px;
+}
+
 
 .register-form {
   max-width: 600px;
@@ -20,7 +25,7 @@
   display: block;
   max-width: 450px;
   width: 100%;
-  padding: 10px 20px;
+  padding: 12px 20px;
   margin: auto;
   margin-top: 15px;
   background: #ffffff;
@@ -38,17 +43,59 @@
   font-size: 22px;
   line-height: 28px;
   color: #000000;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
+
+.login-checkbox>input{
+  font-size: 50px;
+}
+
+
 .register-btn {
   margin-top: 30px;
-  max-width: 200px;
+  max-width: 180px;
   width: 100%;
   margin-bottom: 25px;
 }
-.register-content{
-  font-family: 'Montserrat' sans-serif;
+
+.input-bottom{
+    padding-top: 25px;
+    margin: auto;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.input-bottom>span{
+    display: block;
+}
+
+.inputi-content{
+    font-family: 'Montserrat' sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 17.179px;
-line-height: 21px;
+line-height: 18px;
+    margin-left: auto;
+    color: #007FFF;
+
 }
+.input-bottom>input{
+    font-size: 15px;
+}
+
+.login-content{
+  font-family: 'Gilroy' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 19.1304px;
+line-height: 23px;
+letter-spacing: 0.02em;
+color: #989898;
+margin-left: 12px;
+}
+
+
