@@ -3,6 +3,8 @@ import "./flatRoomImage.css";
 // import "./../../main-card/MainCard.css"
 import Photo from "./roomImage.png";
 import Icon from "../like-icon.svg";
+import {Link} from "react-router-dom";
+
 class FlatRoomImage extends PureComponent {
     render() {
 
@@ -42,7 +44,7 @@ class FlatRoomImage extends PureComponent {
                         
 
                     </div>
-                      <button className="flat-about-btn">Batafsil</button>
+                      <Link to="/flat/1" className="flat-about-btn">Batafsil</Link>
                 </div>
             </div>
 

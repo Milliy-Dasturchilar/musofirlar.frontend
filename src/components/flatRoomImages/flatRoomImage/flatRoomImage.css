@@ -97,6 +97,7 @@
       background-color: #fff;
       border-radius: 8px;
       transition: all 0.7s;
+      text-decoration: none;
   }
   .flat-about-btn:hover{
       background-color: #FFB800;
