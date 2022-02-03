@@ -6,6 +6,8 @@ import Job from "./pages/job/Job";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
 import Announcement from "./pages/announcement/Announcement";
+import JobAnnouncement from "./pages/jobAnnouncement/JobAnnouncement";
+import Canteen from "./pages/canteen/Canteen";
 
 import { Routes, Route } from "react-router-dom";
 import Embassy from "./pages/embassy/Embassy";
@@ -23,6 +25,8 @@ class App extends React.PureComponent {
           <Route path={"/register"} element={<Register />} />
           <Route path={"/login"} element={<Login />} />
           <Route path={"/announcement"} element={<Announcement />} />
+          <Route path={"/jobAnnouncement"} element={<JobAnnouncement />} />
+          <Route path={"/canteen"} element={<Canteen />} />
         </Routes>
       </div>
     );
