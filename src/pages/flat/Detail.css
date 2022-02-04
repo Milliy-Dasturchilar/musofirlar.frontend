@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .detail-container{
@@ -19,4 +20,97 @@
 }
 .detail-location-container span{
     margin-left: 10px;
+}
+
+.detail-main-section-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.user-container{
+    padding: 15px;
+    box-shadow: 0px 0px 3.5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #fff;
+}
+.user-about-container{
+    display: flex;
+}
+.detail-main-card{
+    width: 90%;
+    
+}
+.user-img{
+    font-size: 50px;
+}
+.user-name{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.renter{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 15px;
+    font-weight: 500;
+    color: #A6A6A6;
+}
+.renter-time{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-left: 70px;
+    font-weight: 500;
+    color: #A6A6A6;
+}
+.renter-phone{
+    margin: 0;
+    padding: 0;
+    text-align: end;
+    font-weight: 500;
+    color: #A6A6A6;
+}
+
+.detail-form{
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+}
+.detail-form input:not(:last-child){
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 8px 15px;
+     border-radius: 10px;
+     font-size: 18px;
+     border:2px solid #A5A5A5;
+}
+.input-detail-message{
+    height: 20vh;
+    width: 100%;
+    border:2px solid #A5A5A5;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+.input-detail-btn{
+    width:100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 2px solid #007fff;
+    background-color: #007fff;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.7s;
+}
+.input-detail-btn:hover{
+    background-color: #fff;
+    color: #007fff;
+    border: 2px solid #007fff;
 }
