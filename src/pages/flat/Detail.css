@@ -25,11 +25,12 @@
 .detail-main-section-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    column-gap: 30px;
+    /* column-gap: px; */
     margin-bottom: 50px;
 }
 
 .user-container{
+    width: 350px;
     padding: 15px;
     box-shadow: 0px 0px 3.5px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -39,7 +40,8 @@
     display: flex;
 }
 .detail-main-card{
-    width: 90%;
+    width: 85%;
+    height: 100%;
     
 }
 .user-img{
@@ -90,7 +92,7 @@
      border:2px solid #A5A5A5;
 }
 .input-detail-message{
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     border:2px solid #A5A5A5;
     border-radius: 10px;
@@ -101,7 +103,7 @@
     width:100%;
     padding: 10px 15px;
     font-size: 18px;
-    margin-top: 15px;
+    margin-top: 35px;
     border-radius: 10px;
     border: 2px solid #007fff;
     background-color: #007fff;
@@ -113,4 +115,45 @@
     background-color: #fff;
     color: #007fff;
     border: 2px solid #007fff;
+}
+.input-detail-btn:active{
+    opacity: 0.8;
+}
+
+.detail-about-content-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 30px;
+}
+
+.detail-images-container{
+    /* display: flex;
+    justify-content: space-between; */
+}
+.detail-about-images:not(:last-child){
+    margin-right: 13px;
+}
+.detail-about-images{
+    width: 150px;
+    height: 150px;
+}
+.detail-date-text{
+    color: #A6A6A6;
+}
+.price-container{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #A6A6A6;
+}
+.detail-price{
+    font-size: 30px;
+    display: inline-block;
+    margin: 0;
+}
+.detail-price p{
+    font-size: 15px;
+    margin: 0;
+    display: inline-block;
+}
+.detail-location-card{
+    width: 350px;
 }
