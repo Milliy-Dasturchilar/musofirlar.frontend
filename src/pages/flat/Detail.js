@@ -2,6 +2,9 @@ import React from "react";
 import Photo from "./detailMainCard.png"
 import detailImages from "./detailImages.png"
 import location from "./location.png"
+import "./Detail.css"
+
+
 class FlatDetail extends React.Component {
     constructor(props) {
         super(props);
@@ -9,25 +12,25 @@ class FlatDetail extends React.Component {
     state = {}
     render() {
         return (
-            <div className="container">
-                <h2>2 Xonali / 80m2 uy ijaraga beriladi</h2>
-                <div>
+            <div className="container detail-container">
+                <h2 className="detail-title">2 Xonali / 80m2 uy ijaraga beriladi</h2>
+                <div className="detail-location-container">
                     <i className="fas fa-map-marker-alt"></i>
                     <span>London, Downtown st. 77</span>
                 </div>
                 <div>
-                    <img src={Photo} />
+                    <img src={Photo} className="detail-main-card"/>
                     <div>
-                        <img src="" />
-                        <p>Abdusalom Abdusalomov</p>
-                        <p>Ijarachi</p>
-                        <p>Kecha 10:00</p>
-                        <p>+998 90 123 45 67</p>
-                        <form>
-                            <input type={'text'} placeholder="Ism familiyangizni kiriting..." /> <br />
-                            <input type={'number'} placeholder="Telefon raqamingizni kiriting..." /> <br />
-                            <input type={'text'} placeholder="Xabar matnini kiriting..." /> <br />
-                            <input type={'submit'} value={"Jo'natish"} />
+                        <img src="" className="user-img" />
+                        <p className="user-name">Abdusalom Abdusalomov</p>
+                        <p className="renter">Ijarachi</p>
+                        <p className="renter-name">Kecha 10:00</p>
+                        <p className="renter-phone">+998 90 123 45 67</p>
+                        <form className="detail-form">
+                            <input className="input-detail-name" type={'text'} placeholder="Ism familiyangizni kiriting..." /> <br />
+                            <input className="input-detail-nomer" type={'number'} placeholder="Telefon raqamingizni kiriting..." /> <br />
+                            <input className="input-detail-message" type={'text'} placeholder="Xabar matnini kiriting..." /> <br />
+                            <input className="input-detail-btn" type={'submit'} value={"Jo'natish"} />
                         </form>
                         <div>
                             <div>
@@ -48,7 +51,7 @@ class FlatDetail extends React.Component {
                             <div>
                                 <h4>Batafsil</h4>
                                 <p>Xonalar soni: 4</p>
-                                <p>Qavat: 2</p>
+                                <p>Qavat: 2</p> 
                                 <p>Sanuzel: 2ta</p>
                                 <p>Jihozlar: Bor</p>
                                 <p>Qulayliklar: Issiq suv ta’minoti, Wi-fi,

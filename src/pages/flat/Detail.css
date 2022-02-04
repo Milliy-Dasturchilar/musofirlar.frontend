@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.detail-container{
+    margin-top: 120px;
+}
+.detail-title{
+    font-size: 40px;
+    font-size: Gilroy;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.detail-location-container{
+    color: #A6A6A6;
+    margin-bottom: 15px;
+}
+.detail-location-container span{
+    margin-left: 10px;
+}
