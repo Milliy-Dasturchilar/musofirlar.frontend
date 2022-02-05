@@ -1,29 +1,35 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.room-container{
+
+.room-container {
     position: relative;
     height: 400px;
     margin-bottom: 30px;
     padding: 0;
     text-align: center;
-}
-.img-container{
-    text-align: center;
-    
+    border-radius: 10px 10px 0 0;
 }
 
-.img-container div{
+.img-container {
+    text-align: center;
+
+}
+
+.img-container div {
     width: 100%;
 
 }
-.flat-room-image{
+
+.flat-room-image {
     margin-bottom: -50px;
-    
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
 }
-.img-text{
+
+.img-text {
     margin: 0;
     padding: 0;
     position: absolute;
@@ -34,24 +40,28 @@
     border-radius: 5px;
     color: #FFB800;
 }
-.flat-room-image{
+
+.flat-room-image {
     width: 250px;
     height: 250px;
 }
-.room-image-title-container{
+
+.room-image-title-container {
     width: 250px;
     text-align: center;
-    background-color: #fff; 
+    background-color: #fff;
     box-shadow: 0px 0px 3.5px rgba(0, 0, 0, 0.25);
     padding: 15px;
     border-radius: 10px;
 }
-.flat-room-container{
+
+.flat-room-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.flat-rooms{
+
+.flat-rooms {
     margin: 0;
     padding: 0;
     font-size: 22px;
@@ -59,50 +69,57 @@
 
 
 }
-.flat-price{
+
+.flat-price {
     margin-top: 12px;
     font-size: 20px;
     font-weight: 600;
 }
-.room-equipment-container{
+
+.room-equipment-container {
     display: flex;
     align-items: center;
     color: #a5a5a5;
     margin: 0;
 }
-.room-equipment-title{
+
+.room-equipment-title {
     display: flex;
     align-items: center;
 }
 
-  .room-equipment-container> span {
+.room-equipment-container > span {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 22px;
-  }
-  .room-equipment-container > div {
+}
+
+.room-equipment-container > div {
     width: 110px;
     margin-top: 15px;
-  }
+}
 
-  .room-equipment-container .fas {
+.room-equipment-container .fas {
     margin-right: 5px;
-  }
-  .flat-about-btn{
-      margin-top: 15px;
-      padding: 5px 18px;
-      border: 2px solid #FFB800;
-      color: #FFB800;
-      background-color: #fff;
-      border-radius: 8px;
-      transition: all 0.7s;
-      text-decoration: none;
-  }
-  .flat-about-btn:hover{
-      background-color: #FFB800;
-      color: #fff;
-  }
-  .flat-about-btn:active{
-      opacity: 0.8;
-  }
+}
+
+.flat-about-btn {
+    margin-top: 15px;
+    padding: 5px 18px;
+    border: 2px solid #FFB800;
+    color: #FFB800;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+.flat-about-btn:hover {
+    background-color: #FFB800;
+    color: #fff;
+}
+
+.flat-about-btn:active {
+    opacity: 0.8;
+}

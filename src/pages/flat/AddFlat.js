@@ -1,7 +1,7 @@
 import React from "react";
-import "./JobAnnouncement.css";
+import "./AddFlat.css";
 
-class JobAnnouncement extends React.Component {
+class AddFlat extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -25,36 +25,32 @@ class JobAnnouncement extends React.Component {
                 </select>
                 <input
                   className="card-input card-input-cost"
-                  placeholder="Oylik"
+                  placeholder="Narxi"
                 />
                 <select className="card-input">
-                  <option>Ovqat</option>
-                  <option>Palov</option>
-                  <option>Qozon Kabob</option>
+                  <option>Jihozlar</option>
+                  <option>hamma jihozlar bor</option>
+                  <option>deyarli bor</option>
                 </select>
-                <input
-                  className="card-input card-input-cost"
-                  placeholder="Ish soati"
-                />
               </div>
 
               <div className="card-top-right">
                 <select className="card-input">
-                  <option>Ish turi</option>
-                  <option>Kunduzgi</option>
-                  <option>Kechki</option>
+                  <option>Xonalar soni</option>
+                  <option>3ta</option>
+                  <option>5ta</option>
                 </select>
 
                 <select className="card-input">
-                  <option>Ishchilar soni</option>
-                  <option>15ta</option>
-                  <option>35ta</option>
+                  <option>Sanuzel soni</option>
+                  <option>2ta</option>
+                  <option>1ta</option>
                 </select>
 
                 <select className="card-input">
-                  <option>Yotoq</option>
-                  <option>Dom</option>
-                  <option>Kontainer</option>
+                  <option>Qavat</option>
+                  <option>18-qavat</option>
+                  <option>3-qavat</option>
                 </select>
 
                 <div className="card-input card-input-img">
@@ -68,12 +64,16 @@ class JobAnnouncement extends React.Component {
 
             <div>
               <textarea
+                className="addres"
+                placeholder="To’liq manzilni kiriting ..."
+              ></textarea>
+              <textarea
                 className="about-home"
-                placeholder="Qo’shimcha ma’lumot ..."
+                placeholder="Uy haqida batafsil ..."
               ></textarea>
               <textarea
                 className="additional"
-                placeholder="Talablar:"
+                placeholder="Qo’shimcha qulayliklar ..."
               ></textarea>
               <div className="announcement-btn">
                 <div className="btn_1">
@@ -96,4 +96,4 @@ class JobAnnouncement extends React.Component {
   }
 }
 
-export default JobAnnouncement;
+export default AddFlat;

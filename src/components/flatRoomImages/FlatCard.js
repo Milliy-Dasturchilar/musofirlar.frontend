@@ -1,55 +1,56 @@
 import React, { PureComponent } from "react";
-import "./flatRoomImage.css";
-// import "./../../main-card/MainCard.css"
+import "./FlatCard.css";
 import Photo from "./roomImage.png";
-import Icon from "../like-icon.svg";
+import Icon from "./like-icon.svg";
 import {Link} from "react-router-dom";
 
-class FlatRoomImage extends PureComponent {
-    render() {
+class FlatCard extends PureComponent {
 
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        let flat = this.props.flat;
+        let linkToDetail = `/flat/${flat.id}`;
         return (
-            <div className="col-md-3 room-container">
+            <div className="col-md-3 room-container my-5">
                 <div className="img-container">
-                     <img src={Photo} className="flat-room-image" />
+                     <img src={flat.images[0].image} className="flat-room-image" />
                 </div>
                 <p className="img-text">Yangi</p>
                 <div className="room-image-title-container">
                     <div className="room-image-title">
                         <div className="flat-room-container">
-                            <h4 className="flat-rooms" >2 Xonali / 80m2</h4>
+                            <h4 className="flat-rooms text-light" >{flat.number_of_rooms} xonali</h4>
                             <img src={Icon} className="flat-like-icon"/>
                         </div>
-                        <h4 className="flat-price">150.000so’m</h4>
                         <div className="room-equipment-container">
                             <div className="room-equipment-title">
                                 <i className="fas fa-map-marker-alt"></i>
-                                <span>London</span>
+                                <span>{flat.city.country.name}</span>
                             </div>
                             <div className="room-equipment-title">
                                 <i className="fas fa-user-circle"></i>
-                                <span>Yakkalik</span>
+                                <span>{flat.user.first_name}</span>
                             </div>
                         </div>
                         <div className="room-equipment-container">
                             <div className="room-equipment-title">
-                                <i className="fas fa-chair"></i>
-                                <span>Mebellar</span>
+                                <i className="far fa-calendar-alt me-1"></i>
+                                <span>{flat.created_at.split('T')[0]}</span>
                             </div>
                             <div className="room-equipment-title">
                                 <i className="fas fa-dollar-sign"></i>
-                                <span>Arzon</span>
+                                <span>{flat.price}</span>
                             </div>
                         </div>
-                        
-
                     </div>
-                      <Link to="/flat/1" className="flat-about-btn">Batafsil</Link>
+                      <Link to={linkToDetail} state={{id: flat.id}} className="flat-about-btn">Batafsil</Link>
                 </div>
             </div>
-
         );
     }
 }
 
-export default FlatRoomImage;
+export default FlatCard;
