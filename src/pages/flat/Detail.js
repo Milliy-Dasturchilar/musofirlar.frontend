@@ -1,32 +1,46 @@
 import React from "react";
-import Photo from "./detailMainCard.png"
-import detailImages from "./detailImages.png"
-import location from "./location.png"
-import "./Detail.css"
-import FlatRoomImages from "../../components/flatRoomImages/FlatRoomImages";
+import { useLocation } from 'react-router-dom'
+import Photo from "./detailMainCard.png";
+import detailImages from "./detailImages.png";
+import "./Detail.css";
 
 
 class FlatDetail extends React.Component {
     constructor(props) {
         super(props);
     }
-    state = {}
+
+    state = {
+        flat: {}
+    }
+
+    // componentDidMount() {
+    //     const { id } = useLocation().state;
+    //     let url = 'https://musofir.pythonanywhere.com/api/v1/flat/' + id;
+    //     fetch(url)
+    //         .then((res) => res.json())
+    //         .then((res) => {
+    //             this.setState({flat: res})
+    //         });
+    // }
+
     render() {
+        // const { id } = useLocation().state;
         return (
             <div className="container detail-container">
                 <h2 className="detail-title">2 Xonali / 80m2 uy ijaraga beriladi</h2>
                 <div className="detail-location-container">
                     <i className="fas fa-map-marker-alt"></i>
-                    <span>London, Downtown st. 77</span>
+                    <span> Downtown st. 77</span>
                 </div>
 
                 <div className="detail-main-section-container">
-                    
-                        <img src={Photo} className="detail-main-card" />
-                   
+
+                    <img src={Photo} className="detail-main-card"/>
+
                     <div className="user-container">
                         <div className="user-about-container">
-                            <i class="fas fa-user-circle user-img"></i>
+                            <i className="fas fa-user-circle user-img"></i>
                             <div className="user-about">
                                 <p className="user-name">Abdusalom Abdusalomov</p>
                                 <p className="renter">Ijarachi</p>
@@ -35,22 +49,25 @@ class FlatDetail extends React.Component {
                             </div>
                         </div>
                         <form className="detail-form">
-                            <input className="input-detail-name" type={'text'} placeholder="Ism familiyangizni kiriting..." /> <br />
-                            <input className="input-detail-nomer" type={'number'} placeholder="Telefon raqamingizni kiriting..." /> <br />
-                            <textarea className="input-detail-message" rows={10}>Matn kiritng </textarea> <br />
-                            <input className="input-detail-btn" type={'submit'} value={"Jo'natish"} />
+                            <input className="input-detail-name" type={'text'}
+                                   placeholder="Ism familiyangizni kiriting..."/> <br/>
+                            <input className="input-detail-nomer" type={'number'}
+                                   placeholder="Telefon raqamingizni kiriting..."/> <br/>
+                            <textarea className="input-detail-message" placeholder="Matn kiritng " rows={10}></textarea>
+                            <br/>
+                            <input className="input-detail-btn" type={'submit'} value={"Jo'natish"}/>
                         </form>
                     </div>
                 </div>
                 <div className="detail-about-content-container">
-                    <div >
+                    <div>
 
                         <div className="detail-images-container">
-                            <img className="detail-about-images" src={detailImages} />
-                            <img className="detail-about-images" src={detailImages} />
-                            <img className="detail-about-images" src={detailImages} />
-                            <img className="detail-about-images" src={detailImages} />
-                            <img className="detail-about-images" src={detailImages} />
+                            <img className="detail-about-images" src={detailImages}/>
+                            <img className="detail-about-images" src={detailImages}/>
+                            <img className="detail-about-images" src={detailImages}/>
+                            <img className="detail-about-images" src={detailImages}/>
+                            <img className="detail-about-images" src={detailImages}/>
                         </div>
                         <p className="detail-date-text">17 yanvar, 2022 yil</p>
 
@@ -69,18 +86,21 @@ class FlatDetail extends React.Component {
                         <div>
                             <h2>Qoshimcha</h2>
                             <p>
-                                Monolithic web platforms crack when teams create international versions of a website or e-commerce store. Copying and pasting changes from one site to another slows development, and codebases quickly get out of sync. Monolithic web platforms crack when teams create international  versions of a website or e-commerce store. Copying and pasting changes  from one site to another slows development, and codebases quickly get out of sync.Monolithic web platforms crack when teams create internati versions of a website or e-commerce store. Copying and pasting changes from one site to another slows development, and codebases quickly get
+                                Monolithic web platforms crack when teams create international versions of a website or
+                                e-commerce store. Copying and pasting changes from one site to another slows
+                                development, and codebases quickly get out of sync. Monolithic web platforms crack when
+                                teams create international versions of a website or e-commerce store. Copying and
+                                pasting changes from one site to another slows development, and codebases quickly get
+                                out of sync.Monolithic web platforms crack when teams create internati versions of a
+                                website or e-commerce store. Copying and pasting changes from one site to another slows
+                                development, and codebases quickly get
                                 out of sync.
                             </p>
                         </div>
 
                     </div>
-                    <div className="location-card-container">
-                    <img className="detail-location-card" src={location} /></div>
 
                 </div>
-
-             <FlatRoomImages ImagesTitle={"O'xshash e'lonlar"}/>
             </div>
         );
     }

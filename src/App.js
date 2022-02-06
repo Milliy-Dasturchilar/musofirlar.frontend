@@ -5,12 +5,13 @@ import FlatDetail from "./pages/flat/Detail";
 import Job from "./pages/job/Job";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
-import Announcement from "./pages/announcement/Announcement";
-import JobAnnouncement from "./pages/jobAnnouncement/JobAnnouncement";
+import AddFlat from "./pages/flat/AddFlat";
+import JobAdd from "./pages/job/JobAdd";
 import Canteen from "./pages/canteen/Canteen";
 
 import { Routes, Route } from "react-router-dom";
 import Embassy from "./pages/embassy/Embassy";
+
 
 class App extends React.PureComponent {
   render() {
@@ -19,13 +20,13 @@ class App extends React.PureComponent {
         <Routes>
           <Route path={"/"} element={<Home />} />
           <Route path={"/flat"} element={<Flat />} />
-          <Route path={"/flat/1"} element={<FlatDetail />} />
+          <Route path={"/flat/:id"} element={<FlatDetail />} />
           <Route path={"/job"} element={<Job />} />
           <Route path={"/embassy"} element={<Embassy />} />
           <Route path={"/register"} element={<Register />} />
           <Route path={"/login"} element={<Login />} />
-          <Route path={"/announcement"} element={<Announcement />} />
-          <Route path={"/jobAnnouncement"} element={<JobAnnouncement />} />
+          <Route path={"/flat/add"} element={<AddFlat />} />
+          <Route path={"/jobAnnouncement"} element={<JobAdd />} />
           <Route path={"/canteen"} element={<Canteen />} />
         </Routes>
       </div>
