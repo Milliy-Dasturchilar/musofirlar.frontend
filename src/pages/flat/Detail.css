@@ -24,8 +24,8 @@
 
 .detail-main-section-container{
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    /* column-gap: px; */
+    grid-template-columns: 4fr 1fr;
+    /* column-gap: 50px; */
     margin-bottom: 50px;
 }
 
@@ -122,8 +122,8 @@
 
 .detail-about-content-container{
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    column-gap: 30px;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 140px;
 }
 
 .detail-images-container{
