@@ -1,7 +1,6 @@
 import React from "react";
 import './TaxiMain.css';
 import CardTop from "../main-card/CardTop";
-import ButtonMain from "../buttonMain/Button-main";
 
 class TaxiMain extends React.Component {
 

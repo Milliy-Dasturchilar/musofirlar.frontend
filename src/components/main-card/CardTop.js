@@ -1,9 +1,6 @@
 import React from "react";
 import ButtonMain from "../buttonMain/Button-main";
 class CardTop extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div

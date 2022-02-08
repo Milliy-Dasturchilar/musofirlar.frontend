@@ -1,11 +1,8 @@
 import React from "react";
 import "./inputLocation.css";
-import{Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 class InputLocation extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className="input-location-container">
@@ -45,7 +42,9 @@ class InputLocation extends React.Component {
           </form>
           <div className="input-location-advertisement">
             <button className="advertisement-btn">
-              <Link to={this.props.cardLink} className="text-decoration-none">E'lon berish</Link>
+              <Link to={this.props.cardLink} className="text-decoration-none">
+                E'lon berish
+              </Link>
             </button>
           </div>
         </div>

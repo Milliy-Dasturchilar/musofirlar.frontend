@@ -3,16 +3,13 @@ import "./EmbassyKitchenCard.css"
 
 
 class EmbassyKitchenCard extends React.PureComponent {
-    constructor(props) {
-        super(props);
-    }
     state = {}
     render() {
         return (
           <div className="container">
             <h2 className="EK-title">{this.props.TextContent}</h2>
             <div className="EK-card-container row">
-              <img src={this.props.CardImg} className="EK-main-img col-md-8" />
+              <img src={this.props.CardImg} alt="" className="EK-main-img col-md-8" />
               <div className="EK-content col-md-4">
                 <h4 className="EK-content-title">{this.props.TextContent}</h4>
                 <h4 className="EK-contact-title">Aloqa uchun:</h4>

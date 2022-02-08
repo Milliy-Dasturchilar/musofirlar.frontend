@@ -2,9 +2,6 @@ import React from "react";
 import "./MainCardBottom.css";
 
 class MainCardBottom extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   state = {}
   render() {
     return (

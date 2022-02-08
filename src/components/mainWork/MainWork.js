@@ -16,7 +16,7 @@ class MainWork extends React.Component {
           <div className="main-work-bottom row ">
             <MainWorkContent />
             <div className=" Main-Work-Photo  col-md-5">
-              <img src={Photo} style={{ width: "450px", height: "500px" }} />
+              <img src={Photo} alt="" style={{ width: "450px", height: "500px" }} />
             </div>
           </div>
         </div>

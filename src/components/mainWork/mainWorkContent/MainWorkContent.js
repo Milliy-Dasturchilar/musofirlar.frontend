@@ -2,9 +2,6 @@ import React from "react";
 import "./MainWorkContent.css";
 
 class MainWorkContent extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div className={"work-bottom-left col-md-7"}>

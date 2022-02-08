@@ -2,9 +2,6 @@ import React from "react";
 import "./AddFlat.css";
 
 class AddFlat extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
       <div>
