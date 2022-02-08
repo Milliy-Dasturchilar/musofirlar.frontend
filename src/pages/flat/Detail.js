@@ -15,7 +15,7 @@ function FlatDetail() {
         setFlat(res);
         setHere(true);
       });
-  }, []);
+  }, [id]);
 
   console.log(flat);
   if (here) {
