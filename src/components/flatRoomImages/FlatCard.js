@@ -1,16 +1,20 @@
 import React, { Component } from "react";
 import "./FlatCard.css";
 import Icon from "./like-icon.svg";
+import IMAGE from "./roomImage.png";
 import { Link } from "react-router-dom";
 
 class FlatCard extends Component {
-
   render() {
     let flat = this.props.flat;
     return (
       <div className="col-md-3 room-container my-5">
         <div className="img-container">
-          <img src={flat.images[0].image} alt="" className="flat-room-image" />
+          <img
+            src={flat.images[0] ? flat.images[0].image : IMAGE}
+            alt=""
+            className="flat-room-image"
+          />
         </div>
         <p className="img-text">Yangi</p>
         <div className="room-image-title-container">
@@ -42,10 +46,7 @@ class FlatCard extends Component {
               </div>
             </div>
           </div>
-          <Link
-            to={`/flat/${flat.id}`}
-            className="flat-about-btn"
-          >
+          <Link to={`/flat/${flat.id}`} className="flat-about-btn">
             Batafsil
           </Link>
         </div>

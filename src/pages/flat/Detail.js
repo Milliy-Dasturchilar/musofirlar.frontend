@@ -11,8 +11,10 @@ function FlatDetail() {
     let url = `https://musofir.pythonanywhere.com/api/v1/flat/${id}`;
     fetch(url)
       .then((res) => res.json())
-      .then((res) => setFlat(res))
-      .then(() => setHere(true));
+      .then((res) => {
+        setFlat(res);
+        setHere(true);
+      });
   }, []);
 
   console.log(flat);
@@ -28,11 +30,15 @@ function FlatDetail() {
         </div>
 
         <div className="detail-main-section-container">
-          <img
-            src={flat.images[0].image}
-            alt=""
-            className="img-fluid detail-main-card"
-          />
+          {flat.images[0] ? (
+            <img
+              src={flat.images[0].image}
+              alt=""
+              className="img-fluid detail-main-card"
+            />
+          ) : (
+            ""
+          )}
 
           <div className="user-container">
             <div className="user-about-container">
@@ -73,7 +79,7 @@ function FlatDetail() {
             </div>
             <p className="detail-date-text">
               {flat.created_at.split("T")[0]} |{" "}
-              {flat.created_at.split("T")[1].split('.')[0]}
+              {flat.created_at.split("T")[1].split(".")[0]}
             </p>
             <div>
               <h2>Qoshimcha</h2>
