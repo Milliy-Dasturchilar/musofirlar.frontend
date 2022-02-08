@@ -12,7 +12,6 @@ import Canteen from "./pages/canteen/Canteen";
 import { Routes, Route } from "react-router-dom";
 import Embassy from "./pages/embassy/Embassy";
 
-
 class App extends React.PureComponent {
   render() {
     return (
