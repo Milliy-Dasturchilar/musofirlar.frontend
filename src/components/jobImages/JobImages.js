@@ -6,14 +6,12 @@ class JobImages extends PureComponent {
   render() {
     return (
       <div className="container" style={{ padding: "0px" }}>
-        <h2 className="mb-5 mt-5" style={{ padding: "0px" }}>
-          {this.props.imagesTitle}
-        </h2>
         <div className="row p-0 m-0">
-          <JobImage />
-          <JobImage />
-          <JobImage />
-          <JobImage />
+          {
+            this.props.jobs.map((job) => {
+              return <JobImage job={job} key={job.id} />
+            })
+          }
         </div>
       </div>
     );

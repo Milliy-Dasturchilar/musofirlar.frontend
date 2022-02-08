@@ -3,6 +3,7 @@ import Home from "./pages/home/Home";
 import Flat from "./pages/flat/Flat";
 import FlatDetail from "./pages/flat/Detail";
 import Job from "./pages/job/Job";
+import JobDetail from "./pages/job/Detail";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login";
 import AddFlat from "./pages/flat/AddFlat";
@@ -21,6 +22,7 @@ class App extends React.PureComponent {
           <Route path={"/flat"} element={<Flat />} />
           <Route path={"/flat/:id"} element={<FlatDetail />} />
           <Route path={"/job"} element={<Job />} />
+          <Route path={"/job/:id"} element={<JobDetail />} />
           <Route path={"/embassy"} element={<Embassy />} />
           <Route path={"/register"} element={<Register />} />
           <Route path={"/login"} element={<Login />} />

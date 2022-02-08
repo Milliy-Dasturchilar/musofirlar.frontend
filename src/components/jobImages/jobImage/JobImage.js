@@ -1,16 +1,31 @@
 import React from "react";
-import "./JobImage.css"
-import Photo from "./jobCard.png"
+import "./JobImage.css";
+import {Link} from "react-router-dom";
+;
+
+
 
 
 class JobImage extends React.Component {
 
     render() {
+        let job = this.props.job;
         return (
             <div className="col-md-3 job-container">
-                <div className="img-container">
-                    <img src={Photo} className="job-image" />
-                </div>
+                <ul>
+                    <li>
+                        {job.id}
+                    </li>
+                    <li>
+                        {job.user.first_name}
+                    </li>
+                    <li>
+                        {job.city.name}
+                    </li>
+                    <li>
+                        {job.address}
+                    </li>
+                </ul>
                 <p className="img-text-new">Yangi</p>
                 <div className="job-card-title-container">
                     <h4 className="job-card-title">Mohir ustalarni ishga taklif etamiz
@@ -38,9 +53,8 @@ class JobImage extends React.Component {
                     </div>
                     <div className="job-container-btn">
                         <button className="contact-job-btn">Bog'lanish</button>
-                        <button className="detailed-job-btn">Batafsil</button>
+                        <Link to={`/job/${job.id}`} className="detailed-job-btn">Batafsil</Link>
                     </div>
-
                 </div>
 
             </div>

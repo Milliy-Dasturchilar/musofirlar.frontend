@@ -8,7 +8,7 @@ class FlatCards extends Component {
       <div className="container" style={{ padding: "0" }}>
         <div className="row">
           {this.props.flats.map((flat) => {
-            return <FlatCard flat={flat} />;
+            return <FlatCard flat={flat} key={flat.id} />;
           })}
         </div>
       </div>
