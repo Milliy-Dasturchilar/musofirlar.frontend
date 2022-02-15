@@ -22,13 +22,15 @@ function FlatDetail() {
     return (
       <div className="container detail-container">
         <h2 className="detail-title">2 Xonali / 80m2 uy ijaraga beriladi</h2>
+        
         <div className="detail-location-container">
           <i className="fas fa-map-marker-alt"></i>
           <span>
-            {flat.city.country.name}, {flat.city.name}, {flat.address}
+            {flat.city.country.name}, {flat.city.name}
           </span>
+          <div className="flat-detail-adres">{flat.address}</div>
         </div>
-
+        
         <div className="detail-main-section-container">
           {flat.images[0] ? (
             <img
@@ -41,22 +43,27 @@ function FlatDetail() {
           )}
 
           <div className="user-container">
+          <h4 className=" text-center">Batafsil</h4>
             <div className="user-about-container">
               <i className="fas fa-user-circle user-img"></i>
               <div className="user-about">
                 <p className="user-name">
                   {flat.user.last_name} {flat.user.first_name}
                 </p>
-                <p className="renter-phone">{flat.user.phone_number}</p>
+                <p className="renter-phone text-start pe-2">{flat.user.phone_number}</p>
                 <div className="price-container">
                   <h3 className="detail-price">
-                    {flat.price} <p> $</p>
+                    {flat.price}<p className="fs-3">$</p>
                   </h3>
                 </div>
                 <div className="detail-about-container">
-                  <h4>Batafsil</h4>
+                 
                   <p>Xonalar soni: {flat.number_of_rooms}</p>
                   <p>Qavat: {flat.floor_of_flat}</p>
+                  <div>
+              <h2>Qoshimcha</h2>
+              <p>{flat.description}</p>
+            </div>
                 </div>
               </div>
             </div>
@@ -81,10 +88,8 @@ function FlatDetail() {
               {flat.created_at.split("T")[0]} |{" "}
               {flat.created_at.split("T")[1].split(".")[0]}
             </p>
-            <div>
-              <h2>Qoshimcha</h2>
-              <p>{flat.description}</p>
-            </div>
+            
+            
           </div>
         </div>
       </div>

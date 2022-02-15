@@ -17,11 +17,11 @@ function JobDetail() {
   }, [id]);
 
   if (here) {
-    console.log(job);
     return (
       <div className="pt-5">
-        dsfgerfer
+        dsfgerferhftfytguigyughgyhtfhhfbtygygtytryrtrtrtrtrtrtrtrtrtrtrtrt
         <p>{job.user.first_name}</p>
+        <p>{job.city.name}</p>
       </div>
     );
   } else {
