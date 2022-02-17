@@ -28,7 +28,6 @@ class Flat extends React.Component {
       <div>
         <HeadHeader strongText={"IJARA UYLAR"} />
         <InputLocation cardLink={"/flat/add"} />
-        <MainCardBottom />
         <FlatCards flats={this.state.flats} />
         <FlatButtons />
       </div>

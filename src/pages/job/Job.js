@@ -31,7 +31,6 @@ class Job extends Component {
       <div>
         <HeadHeader strongText={"ISH TOPISH"} />
         <InputLocation cardLink={"/jobAnnouncement"} />
-        <MainCardBottom mainCardTitle={a} />
         <JobImages jobs={this.state.jobs} />
         <FlatButtons />
       </div>

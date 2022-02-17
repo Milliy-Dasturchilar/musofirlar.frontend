@@ -19,7 +19,7 @@ function JobDetail() {
   if (here) {
     return (
       <div className="pt-5">
-        dsfgerferhftfytguigyughgyhtfhhfbtygygtytryrtrtrtrtrtrtrtrtrtrtrtrt
+         
         <p>{job.user.first_name}</p>
         <p>{job.city.name}</p>
       </div>

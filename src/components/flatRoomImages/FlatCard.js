@@ -25,7 +25,7 @@ class FlatCard extends Component {
               </h4>
               <img src={Icon} alt="" className="flat-like-icon" />
             </div>
-            <div className="room-equipment-container">
+            
               <div className="room-equipment-title">
                 <i className="fas fa-map-marker-alt"></i>
                 <span>{flat.city.country.name}</span>
@@ -34,8 +34,8 @@ class FlatCard extends Component {
                 <i className="fas fa-user-circle"></i>
                 <span>{flat.user.first_name}</span>
               </div>
-            </div>
-            <div className="room-equipment-container">
+           
+           
               <div className="room-equipment-title">
                 <i className="far fa-calendar-alt me-1"></i>
                 <span>{flat.created_at.split("T")[0]}</span>
@@ -44,7 +44,7 @@ class FlatCard extends Component {
                 <i className="fas fa-dollar-sign"></i>
                 <span>{flat.price}</span>
               </div>
-            </div>
+            
           </div>
           <Link to={`/flat/${flat.id}`} className="flat-about-btn">
             Batafsil
