@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import App from './App';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import reportWebVitals from './reportWebVitals';
+import App from "./App";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +18,7 @@ ReactDOM.render(
       <Footer />
     </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
